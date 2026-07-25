@@ -1,0 +1,15 @@
+# Environment variables (contains your Supabase URL/anon key locally —
+# .env.example is the template that SHOULD be committed, this isn't)
+.env
+.env.local
+
+# Build output
+dist
+
+# Dependencies
+node_modules
+
+# Editor/OS noise
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
